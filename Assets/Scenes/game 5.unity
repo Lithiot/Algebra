@@ -311,7 +311,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   correct: 0
-  scr: {fileID: 0}
   pr: {fileID: 348734356}
 --- !u!1001 &275232636
 Prefab:
@@ -1175,7 +1174,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   correct: 0
-  scr: {fileID: 0}
   pr: {fileID: 348734356}
 --- !u!1 &636022625
 GameObject:
@@ -1859,5 +1857,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   correct: 1
-  scr: {fileID: 0}
   pr: {fileID: 348734356}
