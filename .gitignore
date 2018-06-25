@@ -1,0 +1,12 @@
+
+UnityPackageManager/
+
+Library/
+
+\.vs/
+
+Temp/
+
+Algebra\.csproj
+
+Algebra\.sln

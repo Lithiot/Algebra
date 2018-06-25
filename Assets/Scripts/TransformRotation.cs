@@ -8,17 +8,26 @@ public class TransformRotation : MonoBehaviour {
 
     [HideInInspector]public Vector3 Rotation;
 
-    public bool RotationX = false;
-    public float FinalRotationX;
+    [SerializeField] private bool RotationX = false;
+    [SerializeField] private float FinalRotationX;
     private float AuxFinalRotationX;
-    public bool RotationY= false;
-    public float FinalRotationY;
+    [SerializeField] private bool RotationY= false;
+    [SerializeField] private float FinalRotationY;
     private float AuxFinalRotationY;
-    public bool RotationZ = false;
-    public float FinalRotationZ;
+    [SerializeField] private bool RotationZ = false;
+    [SerializeField] private float FinalRotationZ;
     private float AuxFinalRotationZ;
+    [SerializeField] private bool reinicio = false;
 
     public int RotationSpeed;
+
+    public bool Reinicio
+    {
+        set
+        {
+            reinicio = value;
+        }
+    }
 
     void Start()
     {
@@ -31,6 +40,16 @@ public class TransformRotation : MonoBehaviour {
 
     void Update()
     {
+
+        if (reinicio)
+        {
+            AuxFinalRotationX = FinalRotationX;
+            AuxFinalRotationY = FinalRotationY;
+            AuxFinalRotationZ = FinalRotationZ;
+            Rotation = transform.eulerAngles;
+            reinicio = false;
+        }
+
         if (RotationX)
         {
             if (AuxFinalRotationX > 0)
