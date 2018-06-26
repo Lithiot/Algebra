@@ -16,6 +16,6 @@ public class Score : MonoBehaviour
 
     private void Update()
     {
-        tx.text = rec.Puntaje.ToString();
+        tx.text = ((int)record.instantiate.Puntaje).ToString("000");
     }
 }

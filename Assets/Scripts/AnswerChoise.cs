@@ -8,6 +8,7 @@ public class AnswerChoise : MonoBehaviour
     [SerializeField] private bool correct;
     private record rec;
     [SerializeField] private Answered pr;
+    [SerializeField] private Timer tm;
     private Button btn;
     private Image img;
 
@@ -22,7 +23,7 @@ public class AnswerChoise : MonoBehaviour
     private void Check()
     {
         if (correct)
-            rec.Puntaje += 1;
+            rec.Puntaje += 10 * (tm.Time/10);
         pr.Ans = true;
     }
 

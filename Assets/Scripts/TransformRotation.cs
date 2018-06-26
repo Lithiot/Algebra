@@ -40,7 +40,6 @@ public class TransformRotation : MonoBehaviour {
 
     void Update()
     {
-
         if (reinicio)
         {
             AuxFinalRotationX = FinalRotationX;

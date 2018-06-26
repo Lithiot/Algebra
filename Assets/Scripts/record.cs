@@ -4,24 +4,19 @@ using UnityEngine;
 
 public class record : MonoBehaviour {
 
-    private int puntaje;
-
-    public int Puntaje
-    {
-        get
-        {
-            return puntaje;
-        }
-
-        set
-        {
-            puntaje = value;
-        }
-    }
+    public float Puntaje;
+    public static record instantiate;
 
     private void Awake()
     {
-        DontDestroyOnLoad(this);
+        if (instantiate == null)
+        {
+            instantiate = this;
+            DontDestroyOnLoad(gameObject);
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
     }
-
 }

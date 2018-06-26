@@ -4,19 +4,20 @@ using UnityEngine;
 
 public class ButtonManager : MonoBehaviour {
 
-    [SerializeField] private GameObject Dice;
+    [SerializeField] private GameObject dice;
     private TransformRotation rot;
 
     private void Awake()
     {
-        rot = Dice.GetComponent<TransformRotation>();
+        if (rot != null)
+            rot = dice.GetComponent<TransformRotation>();
     }
 
     public void RestarDice()
     {
         
         TransformPosition.instanciate.Position = Vector3.zero;
-        Dice.transform.rotation = Quaternion.identity;
+        dice.transform.rotation = Quaternion.identity;
         TransformScale.instanciate.scale = Vector3.one;
         rot.Reinicio = true;
     }
