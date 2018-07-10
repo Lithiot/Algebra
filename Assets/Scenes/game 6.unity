@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.9605076, g: 0.9590228, b: 0.9606795, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -931,7 +931,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Rotacion del dado verde
+  m_Text: El dado verde esta rotado
 --- !u!222 &353010156
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1227,7 +1227,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Movimiento del dado
+  m_Text: "El dado verde \nesta desplazado"
 --- !u!222 &537627086
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1301,7 +1301,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 7- Que diferencia existe entre los dos dados mostrados en pantalla?
+  m_Text: 7- Que diferencia existe entre estos dos dados?
 --- !u!222 &602269919
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2090,7 +2090,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Escalado y movimiento del dado
+  m_Text: "El dado verde esta \nampliado y desplazado"
 --- !u!222 &1700118377
 CanvasRenderer:
   m_ObjectHideFlags: 0

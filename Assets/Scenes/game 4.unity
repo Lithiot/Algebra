@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.9605076, g: 0.9590228, b: 0.9606795, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -756,7 +756,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Rotacion en x, escalado en y
+  m_Text: "Rotacion horizontal y \nampliaci\xF3n vertical"
 --- !u!222 &353010156
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1052,7 +1052,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Escalado en z, rotacion en y
+  m_Text: "Ampliaci\xF3n en profundidad y\nrotaci\xF3n vertical"
 --- !u!222 &537627086
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1126,8 +1126,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 5- Que combinacion de transformaciones se necesitan para que el dado llege
-    a la posicion marcada por el cubo azul?
+  m_Text: 5- Que combinacion de movimientos se necesitan para que el dado llege a
+    la posicion del cubo azul?
 --- !u!222 &602269919
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1912,7 +1912,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Escalado en z, movimiento en x
+  m_Text: "Ampliaci\xF3n de profundidad y desplazamiento en profundidad"
 --- !u!222 &1700118377
 CanvasRenderer:
   m_ObjectHideFlags: 0

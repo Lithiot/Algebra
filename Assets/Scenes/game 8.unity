@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.9605076, g: 0.9590228, b: 0.9606795, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -743,7 +743,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Rotacion y movimiento
+  m_Text: "Rotaci\xF3n y desplazamiento"
 --- !u!222 &353010156
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1039,7 +1039,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: movimiento y escalado
+  m_Text: "Desplazamiento y ampliaci\xF3n"
 --- !u!222 &537627086
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1181,7 +1181,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: '9- Por que transformaciones se ve afectado el dado? '
+  m_Text: '9- Que tipo de movimientos realiza el dado? '
 --- !u!222 &602269919
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2005,7 +2005,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Escalado, movimiento y rotacion
+  m_Text: "Ampliaci\xF3n, desplazamiento \ny rotaci\xF3n"
 --- !u!222 &1700118377
 CanvasRenderer:
   m_ObjectHideFlags: 0
